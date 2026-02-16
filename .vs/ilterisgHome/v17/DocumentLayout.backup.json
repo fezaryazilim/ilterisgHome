@@ -7,6 +7,42 @@
       "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\views\\shared\\_anonymouslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\views\\shared\\_anonymouslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\migrations\\20260216104539_slugfalan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\migrations\\20260216104539_slugfalan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\migrations\\20260213154447_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\migrations\\20260213154447_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,24 +55,8 @@
       "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|solutionrelative:ilterisghome\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DC69AC7-B510-4A37-8455-72F48A759E0C}|ilterisgHome\\ilterisgHome.csproj|c:\\users\\umut3\\desktop\\ilterisghome\\ilterisghome\\views\\account\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -106,11 +126,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "_AnonymousLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Shared\\_AnonymousLayout.cshtml",
+              "RelativeDocumentMoniker": "ilterisgHome\\Views\\Shared\\_AnonymousLayout.cshtml",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Shared\\_AnonymousLayout.cshtml",
+              "RelativeToolTip": "ilterisgHome\\Views\\Shared\\_AnonymousLayout.cshtml",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T11:00:51.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260216104539_slugfalan.cs",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Migrations\\20260216104539_slugfalan.cs",
+              "RelativeDocumentMoniker": "ilterisgHome\\Migrations\\20260216104539_slugfalan.cs",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Migrations\\20260216104539_slugfalan.cs",
+              "RelativeToolTip": "ilterisgHome\\Migrations\\20260216104539_slugfalan.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:45:43.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ilterisgHome\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ilterisgHome\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:45:12.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260213154447_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Migrations\\20260213154447_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ilterisgHome\\Migrations\\20260213154447_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Migrations\\20260213154447_InitialCreate.cs",
+              "RelativeToolTip": "ilterisgHome\\Migrations\\20260213154447_InitialCreate.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAJYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:45:02.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "ilterisgHome\\Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Models\\BlogPost.cs",
+              "RelativeToolTip": "ilterisgHome\\Models\\BlogPost.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:44:18.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Blog\\Details.cshtml",
+              "RelativeDocumentMoniker": "ilterisgHome\\Views\\Blog\\Details.cshtml",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Blog\\Details.cshtml",
+              "RelativeToolTip": "ilterisgHome\\Views\\Blog\\Details.cshtml",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-16T06:29:26.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "ilterisgHome\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "ilterisgHome\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAPsBAAAAAAAAAAAAAF4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T06:00:49.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ilterisgHome\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ilterisgHome\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T17:39:06.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ilterisgHome\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\appsettings.Development.json",
+              "RelativeToolTip": "ilterisgHome\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-07T18:54:48.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ilterisgHome\\Views\\Shared\\_Layout.cshtml",
@@ -123,45 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Blog\\Details.cshtml",
-              "RelativeDocumentMoniker": "ilterisgHome\\Views\\Blog\\Details.cshtml",
-              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Blog\\Details.cshtml",
-              "RelativeToolTip": "ilterisgHome\\Views\\Blog\\Details.cshtml",
-              "ViewState": "AgIAANgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-16T06:29:26.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "ilterisgHome\\Controllers\\BlogController.cs",
-              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "ilterisgHome\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T06:00:49.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "ilterisgHome\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "ilterisgHome\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-13T17:39:06.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "CompleteProfile.cshtml",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Account\\CompleteProfile.cshtml",
               "RelativeDocumentMoniker": "ilterisgHome\\Views\\Account\\CompleteProfile.cshtml",
@@ -173,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Data\\AppDbContext.cs",
@@ -186,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "LanguageResource.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Models\\LanguageResource.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Models\\LanguageResource.cs",
@@ -198,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Models\\ApplicationUser.cs",
@@ -210,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "SharedResource.resx",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Resources\\SharedResource.resx",
               "RelativeDocumentMoniker": "ilterisgHome\\Resources\\SharedResource.resx",
@@ -221,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ilterisg.Models.SharedResource.resx",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Resources\\ilterisg.Models.SharedResource.resx",
               "RelativeDocumentMoniker": "ilterisgHome\\Resources\\ilterisg.Models.SharedResource.resx",
@@ -232,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ilterisgHome\\Properties\\launchSettings.json",
@@ -244,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ilterisgHome\\Views\\_ViewImports.cshtml",
@@ -256,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ilterisgHome\\Views\\Home\\Privacy.cshtml",
@@ -268,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "ilterisgHome\\Views\\Home\\About.cshtml",
@@ -280,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "appsettings.Production.json",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\appsettings.Production.json",
               "RelativeDocumentMoniker": "ilterisgHome\\appsettings.Production.json",
@@ -288,24 +386,12 @@
               "RelativeToolTip": "ilterisgHome\\appsettings.Production.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-07T18:55:04.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ilterisgHome\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\appsettings.Development.json",
-              "RelativeToolTip": "ilterisgHome\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-07T18:54:48.373Z",
+              "WhenOpened": "2026-02-07T18:55:04.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "SharedResource.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Models\\SharedResource.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Models\\SharedResource.cs",
@@ -317,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "LanguageController.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Controllers\\LanguageController.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Controllers\\LanguageController.cs",
@@ -329,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Helpers\\IEmailService.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Helpers\\IEmailService.cs",
@@ -354,19 +440,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Program.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Program.cs",
               "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Program.cs",
               "RelativeToolTip": "ilterisgHome\\Program.cs",
-              "ViewState": "AgIAAFwBAAAAAAAAAAAQwGcAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAQwHQBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T16:38:00.224Z"
+              "WhenOpened": "2026-02-07T16:38:00.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Helpers\\EmailService.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Helpers\\EmailService.cs",
@@ -378,20 +465,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ilterisgHome\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ilterisgHome\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-08T08:17:56.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\umut3\\Desktop\\ilterisgHome\\ilterisgHome\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ilterisgHome\\Controllers\\HomeController.cs",

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -514,19 +515,42 @@ namespace ilterisg.Controllers
                 model.MetaKeywords = BuildKeywords(model.Title, model.MetaDescription ?? plainText);
             }
 
-            var baseSlug = BuildSlug(string.IsNullOrWhiteSpace(model.Slug) ? model.Title : model.Slug!);
+            var baseSlug = BuildSlug(model.Title);
             model.Slug = await EnsureUniqueSlugAsync(baseSlug, currentPostId);
         }
 
         private async Task<string> EnsureUniqueSlugAsync(string baseSlug, int? currentPostId)
         {
-            var slug = baseSlug;
+            const int maxSlugLength = 220;
+            var normalizedBase = string.IsNullOrWhiteSpace(baseSlug) ? "blog-yazisi" : baseSlug.Trim('-');
+            if (normalizedBase.Length > maxSlugLength)
+            {
+                normalizedBase = normalizedBase[..maxSlugLength].Trim('-');
+            }
+
+            if (string.IsNullOrWhiteSpace(normalizedBase))
+            {
+                normalizedBase = "blog-yazisi";
+            }
+
+            var slug = normalizedBase;
             var suffix = 1;
 
             while (await _context.BlogPosts.AnyAsync(p =>
                        p.Slug == slug && (!currentPostId.HasValue || p.Id != currentPostId.Value)))
             {
-                slug = $"{baseSlug}-{suffix++}";
+                var suffixText = $"-{suffix++}";
+                var maxBaseLength = Math.Max(1, maxSlugLength - suffixText.Length);
+                var trimmedBase = normalizedBase.Length > maxBaseLength
+                    ? normalizedBase[..maxBaseLength].Trim('-')
+                    : normalizedBase;
+
+                if (string.IsNullOrWhiteSpace(trimmedBase))
+                {
+                    trimmedBase = "blog-yazisi";
+                }
+
+                slug = $"{trimmedBase}{suffixText}";
             }
 
             return slug;
@@ -592,29 +616,35 @@ namespace ilterisg.Controllers
                 return "blog-yazisi";
             }
 
-            var lowered = value.ToLowerInvariant();
-            lowered = lowered
-                .Replace("ç", "c")
-                .Replace("ğ", "g")
-                .Replace("ı", "i")
-                .Replace("ö", "o")
-                .Replace("ş", "s")
-                .Replace("ü", "u");
+            var text = value.Trim().ToLowerInvariant();
+            text = text
+                .Replace('ç', 'c')
+                .Replace('ğ', 'g')
+                .Replace('ı', 'i')
+                .Replace('ö', 'o')
+                .Replace('ş', 's')
+                .Replace('ü', 'u');
 
-            var builder = new StringBuilder();
-            foreach (var c in lowered)
+            text = text.Normalize(NormalizationForm.FormD);
+            var normalized = new StringBuilder(text.Length);
+            foreach (var c in text)
             {
-                if ((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9'))
+                var category = CharUnicodeInfo.GetUnicodeCategory(c);
+                if (category != UnicodeCategory.NonSpacingMark)
                 {
-                    builder.Append(c);
-                }
-                else if (char.IsWhiteSpace(c) || c == '-' || c == '_')
-                {
-                    builder.Append('-');
+                    normalized.Append(c);
                 }
             }
 
-            var slug = Regex.Replace(builder.ToString(), "-{2,}", "-").Trim('-');
+            var ascii = normalized.ToString().Normalize(NormalizationForm.FormC);
+            var slug = Regex.Replace(ascii, @"[^a-z0-9]+", "-");
+            slug = Regex.Replace(slug, "-{2,}", "-").Trim('-');
+
+            if (slug.Length > 220)
+            {
+                slug = slug[..220].Trim('-');
+            }
+
             return string.IsNullOrWhiteSpace(slug) ? "blog-yazisi" : slug;
         }
     }

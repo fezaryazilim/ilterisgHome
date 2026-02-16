@@ -3,9 +3,8 @@
 @{
     Layout = null;
     var appBase = (Config["ExternalLinks:AppBaseUrl"] ?? "https://app.ilterisg.com").TrimEnd('/');
-    var blogPath = "/Blog/Index";
     var loginPath = Url.Action("Login", "Account") ?? "/Account/Login";
-    var blogUrl = $"{appBase}{blogPath}";
+    var blogUrl = Url.RouteUrl("blog_index") ?? "/blog";
     var loginUrl = $"{appBase}{loginPath}";
 }
 <!DOCTYPE html>
@@ -689,4 +688,7 @@
         </script>
 </body>
 </html>
+
+
+
 

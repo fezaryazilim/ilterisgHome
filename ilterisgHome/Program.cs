@@ -207,8 +207,13 @@ app.Use(async (context, next) =>
 });
 
 app.MapControllerRoute(
+    name: "blog_index",
+    pattern: "Blog",
+    defaults: new { controller = "Blog", action = "Index" });
+
+app.MapControllerRoute(
     name: "blog_details",
-    pattern: "blog/{id:int}/{slug?}",
+    pattern: "Blog/{id:int}/{slug?}",
     defaults: new { controller = "Blog", action = "Details" });
 
 app.MapControllerRoute(

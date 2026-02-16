@@ -1,7 +1,14 @@
 ﻿@model ilterisg.Models.BlogPost
 @inject Microsoft.Extensions.Localization.IStringLocalizer<SharedResource> Localizer
 @{
-    Layout = "~/Views/Shared/_BlogLayout.cshtml";
+    if (User.Identity?.IsAuthenticated == true)
+    {
+        Layout = "~/Views/Shared/_BlogLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_AnonymousLayout.cshtml";
+    }
     ViewData["Title"] = Model.Title; // Model.Title zaten dinamik, localize edilmedi
 
     var latestPosts = ViewBag.LatestPosts as List<ilterisg.Models.BlogPost> ?? new List<ilterisg.Models.BlogPost>();

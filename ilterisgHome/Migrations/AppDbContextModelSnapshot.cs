@@ -173,6 +173,14 @@ namespace ilterisgHome.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<string>("FirstName")
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<string>("LastName")
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("tinyint(1)");
 
@@ -218,6 +226,37 @@ namespace ilterisgHome.Migrations
                     b.ToTable("aspnetusers", (string)null);
                 });
 
+            modelBuilder.Entity("ilterisg.Models.BlogComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AuthorName")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("varchar(120)");
+
+                    b.Property<int>("BlogPostId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CommentText")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("varchar(2000)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogPostId");
+
+                    b.ToTable("blogcomments", (string)null);
+                });
+
             modelBuilder.Entity("ilterisg.Models.BlogPost", b =>
                 {
                     b.Property<int>("Id")
@@ -245,6 +284,22 @@ namespace ilterisgHome.Migrations
                     b.Property<bool>("IsPublished")
                         .HasColumnType("tinyint(1)");
 
+                    b.Property<string>("MetaDescription")
+                        .HasMaxLength(160)
+                        .HasColumnType("varchar(160)");
+
+                    b.Property<string>("MetaKeywords")
+                        .HasMaxLength(300)
+                        .HasColumnType("varchar(300)");
+
+                    b.Property<string>("MetaTitle")
+                        .HasMaxLength(70)
+                        .HasColumnType("varchar(70)");
+
+                    b.Property<string>("Slug")
+                        .HasMaxLength(220)
+                        .HasColumnType("varchar(220)");
+
                     b.Property<string>("Summary")
                         .HasMaxLength(500)
                         .HasColumnType("varchar(500)");
@@ -260,6 +315,8 @@ namespace ilterisgHome.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AuthorUserId");
+
+                    b.HasIndex("Slug");
 
                     b.ToTable("blogposts", (string)null);
                 });
@@ -340,6 +397,15 @@ namespace ilterisgHome.Migrations
                     b.HasOne("ilterisg.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ilterisg.Models.BlogComment", b =>
+                {
+                    b.HasOne("ilterisg.Models.BlogPost", null)
+                        .WithMany()
+                        .HasForeignKey("BlogPostId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
